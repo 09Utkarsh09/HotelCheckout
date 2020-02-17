@@ -1,0 +1,149 @@
+.header
+{
+  height: 40px;
+  position: relative;
+}
+
+#logo{
+  height: 60px;
+  padding-left: 5%;
+  text-align: left;
+}
+
+#navbarText{
+  text-align: right;
+  padding-right: 5%;
+  color: white;
+}
+
+main{
+  padding-top: 100px;
+  border: black;
+  border-width: 5px;
+}
+
+h1{
+font-size: 6em;
+text-align: center;
+padding-left: 5px;
+background-color: darkslategray;
+}
+
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  background-size: cover;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color:rgb(207, 188, 188);
+}
+
+#checkin{
+  outline-style: double;
+  width: 80px;
+  border: 2px solid black;
+  color: white;
+  margin: auto;  
+  padding: 10px;
+  text-align: right;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: rgb(66, 56, 56);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.text{
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+
+.card-img-top
+{
+  height:400px;
+  width:538px;
+}
+
+#para{
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+img{
+  border: 2px solid black;
+}
+
+.sticky-top{
+  position:fixed;
+  top:0;
+  width:100vw;
+}
+
+.card-body
+{
+  border: 2px solid black;
+  width: 900px;
+  justify-content: center;
+  margin: auto;
+}
